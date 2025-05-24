@@ -1,5 +1,5 @@
 .summ-container {
-  max-width: 600px;
+  max-width: 400px;
   height: 100px;
   margin: 10px auto;
   padding: 200px;
@@ -44,7 +44,6 @@ strong{
   font-family: "Saira Extra Condensed", sans-serif;
   color: black;
   font-size: 34px;
-  text-align: center;
   margin-top: -330px;
   line-height: 10;
 }
