@@ -1,0 +1,75 @@
+.summ-container {
+  max-width: 600px;
+  height: 100px;
+  margin: 10px auto;
+  padding: 200px;
+  background-color: #f8f5f2;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Bree Serif', serif;
+  color: #3e2a1d;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.fullNameSum{
+  font-family: "Saira Extra Condensed", sans-serif;
+  color: black;
+  font-size: 38px;
+  text-align: center;
+  margin-top: -6vh;
+}
+
+.barberSum{
+  font-family: "Saira Extra Condensed", sans-serif;
+  color: black;
+  font-size: 28px;
+  text-align: center;
+  margin-top: -6vh;
+}
+
+.dateAppoint{
+  font-family: "Saira Extra Condensed", sans-serif;
+  color: rgb(71, 71, 71);
+  font-size: 28px;
+  text-align: center;
+  margin-top: -4vh;
+}
+
+strong{
+  color: #1f0d38;
+}
+
+.confirmed {
+  font-family: "Saira Extra Condensed", sans-serif;
+  color: black;
+  font-size: 34px;
+  text-align: center;
+  position: absolute;
+  top: 9vh;
+  left: 97vh;
+}
+
+.confirmIcon{
+  height: 260px;
+  width: 260px;
+  margin-top: -160px;
+}
+
+.appointBut{
+  margin-top: -20px;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 25px;
+  padding: 4px;
+  width: 20vh;
+  background: #5e402a;
+  border: 0px;
+  border-radius: 16px;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.appointBut:hover{
+  background: #1f130d;
+  transform: scale(1.05);
+}

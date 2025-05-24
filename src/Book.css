@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.bookTitle{
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  margin-top: 0vh
+}
+
+.containerBoard{
+  margin-top: -50px;
+  font-size: 20px;
+  padding: 10px;
+  height: 350px;
+  background-color: white;
+  color: #3e2a1d;
+  border-radius: 20px;
+  font-family: 'Bree Serif', serif;
+}
+
+.timeBoard{
+  margin-top: 2px;
+  margin-bottom: -20px;
+  font-size: 20px;
+  padding: 20px;
+  background-color: #e2cbb5;
+  color: #3e2a1d;
+  border-radius: 20px;
+  font-family: 'Bree Serif', serif;
+}
+
+.calendar-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.calendar-dropdown-wrapper {
+  color:#3e2a1d;
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.time-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.time-row button {
+  padding: 8px 15px;
+  border: 2px solid hsl(22, 39%, 25%);
+  background: white; 
+  font-weight: bold;
+  color: hsl(22, 39%, 25%);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.time-row button:hover {
+  background: #7e6254;
+  color: white;
+  transform: scale(1.05);
+}
+
+.time-row button.selected {
+  background: #5e402a;
+  color: white;
+  font-weight: bold;
+}
+
+.react-calendar {
+  margin-top: -50px;
+  font-family: 'Bree Serif', serif;
+  border-radius: 20px;
+  font-size: 24px;
+  color: white;
+  background-color: #5e402a;
+}
+
+.react-calendar__tile {
+  font-weight: 500px;
+  background-color: white;
+}
+
+.react-calendar__navigation button {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:white;
+}
+
+.react-calendar__tile--active,
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background-color: #5e402a !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #c00;
+}
+
+.selectedDate{
+   margin-top: 10vh;
+   margin-bottom: -6vh;
+}
+
+.confirmBut-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.confirmBut{
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 25px;
+  position:absolute;
+  top: 430px;
+  padding: 4px;
+  width: 20vh;
+  background: #5e402a;
+  border: 0px;
+  border-radius: 16px;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.confirmBut:hover {
+  background: #1f130d;
+  transform: scale(1.05);
+}

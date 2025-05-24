@@ -1,0 +1,88 @@
+.info-container {
+  max-width: 600px;
+  height: 300px;
+  margin: 10px auto;
+  padding: 40px;
+  background-color: #f8f5f2;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Bree Serif', serif;
+  color: #3e2a1d;
+}
+
+.infoTitle{
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 42px;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+}
+
+.info-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+label {
+  white-space: nowrap;
+  text-align: left;
+  font-size: 18px;
+  color: #3e2a1d;
+  width: 140px;
+}
+
+input {
+  flex: 1;
+  padding: 6px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.next-btn {
+  margin-top: 50px;
+  margin-left: 135px;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 25px;
+  padding: 4px;
+  width: 20vh;
+  background: #5e402a;
+  border: 0px;
+  border-radius: 16px;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.next-btn:hover {
+  background: #1f130d;
+  transform: scale(1.05);
+}
+
+.infoBack-btn {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.infoBack-img{
+  height: 40px;
+  width: 40px;
+}
+
+.infoBack-img:hover{
+  transform: scale(1.12);
+}
+

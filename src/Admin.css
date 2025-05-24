@@ -1,0 +1,100 @@
+.adminT {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 42px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: -120vh;
+  text-align: center;
+  
+}
+
+.admin-container {
+  width: 830px;
+  margin-bottom: 20px;
+  padding: 20px 30px;
+  background-color: #e4e4e4;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Saira Extra Condensed", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.appoint-container {
+  background-color: #f8f5f2;
+  border-radius: 12px;
+  padding: 20px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  height: 150px;
+  align-items: center;
+  transition: 0.3s ease-in-out;  
+}
+
+.appoint-container:hover{
+  transform: scale(1.01);
+}
+
+.appoint-left {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.adminBarber {
+  font-size: 36px;
+  color: black;
+  margin: 0;
+}
+
+ .adminFullName{
+  font-family: "Saira Extra Condensed", sans-serif;
+  color: rgb(82, 82, 82);
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: -8px;
+  margin-top: 20px;
+ }
+
+.adminEmail, .adminPhone{
+  font-family: "Saira Extra Condensed", sans-serif;
+  color: rgb(82, 82, 82);
+  font-size: 15px;
+  text-align: left;
+  margin: -2px 0;
+  padding: 0;
+}
+
+.strongAd{
+  color: rgb(56, 56, 56);
+}
+
+.adminDate{
+  font-size: 20px;
+  position: absolute;
+  color: rgb(80, 80, 80);
+  text-align: right;
+  margin-top: -120px;
+  margin-left: 96vh;
+  font-family: 'Bree Serif', serif;
+}
+
+.adminBack-btn {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.adminBack-img{
+  height: 40px;
+  width: 40px;
+}
+
+.adminBack-img:hover{
+  transform: scale(1.12);
+}
