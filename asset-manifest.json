@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Subok-Barbero/static/css/main.08671620.css",
+    "main.css": "/Subok-Barbero/static/css/main.8e3af071.css",
     "main.js": "/Subok-Barbero/static/js/main.d207fb9a.js",
     "static/js/453.44fe5ac2.chunk.js": "/Subok-Barbero/static/js/453.44fe5ac2.chunk.js",
     "static/media/bg.png": "/Subok-Barbero/static/media/bg.23fe418be8d4748ac406.png",
     "index.html": "/Subok-Barbero/index.html",
-    "main.08671620.css.map": "/Subok-Barbero/static/css/main.08671620.css.map",
+    "main.8e3af071.css.map": "/Subok-Barbero/static/css/main.8e3af071.css.map",
     "main.d207fb9a.js.map": "/Subok-Barbero/static/js/main.d207fb9a.js.map",
     "453.44fe5ac2.chunk.js.map": "/Subok-Barbero/static/js/453.44fe5ac2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08671620.css",
+    "static/css/main.8e3af071.css",
     "static/js/main.d207fb9a.js"
   ]
 }
